@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: sans-serif;
+}
+
+
+
+/* ====================== header starts ====================== */
+header{
+    display: flex;
+    align-items: center;
+border: 1px solid #f3f3f3;
+}
+
+ .header-left{
+    display: flex;
+    align-items: center;
+    
+}
+.header-logo{
+    border-right: 1px solid #f3f3f3;
+  
+    padding:20px 30px;
+    
+    
+}
+.header-address{
+    padding: 20px 30px;     
+    color: #111;
+}
+.header-address h1{
+    
+font-size: 18px;
+font-weight: bold;
+}
+.header-address p{
+    padding-top: 5px;
+    font-size: 13px;
+
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+background-color: #F8F8F8;
+border-radius: 15px;
+margin: 10px;
+
+}
+
+.search-box input{
+    flex-grow: 1;
+        background: transparent;
+    border: none;
+}
+.search-box input:focus{
+    outline: none;
+}
+.search-box button{
+    padding: 15px;
+    background: transparent;
+    border: none;
+}
+.header-right{
+    margin-right:  40px;
+    display: flex;
+    gap: 50px;
+    margin:0 40px;
+}
+.header-right button{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+
+
+}
+.header-right button:last-child{
+    background-color: rgb(12, 131, 31);
+padding: 18px 20px;
+    font-size: 18px;
+font-weight: 500;
+font-size: 15px;
+color: #fff;
+border-radius: 4px;
+}
+
+/* ====================== header ends ====================== */
+
+/* ====================== banner starts ====================== */
+.banner-section{
+    max-width: 1280px;
+    margin: auto;
+}
+.banner-section img{
+    width: 100%;
+}
+/* ====================== banner ends ====================== */
+
+/* ====================== order-banner-section starts ====================== */
+.order-banner-section{
+    max-width: 1280px;
+    display: flex;
+
+  margin: auto;
+    
+    
+
+}
+.order-banner-items{
+   flex-basis: 27%;
+margin: 1.2%;
+}
+.order-banner-section img{
+    width: 100%;
+    
+}
+/* ====================== order-banner-section ends ====================== */
+
+/* ====================== order-banner-section starts ====================== */
+.category-section{
+max-width: 1280px;
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+}
+.category-img {
+flex-basis: 10%;
+
+}
+
+.category-img img{
+width: 100%;
+
+}
+
+/* ====================== order-banner-section ends ====================== */
+
+/* ====================== product-section starts ====================== */
+.product-section{
+    max-width: 1280px;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+       padding: 15px;
+    
+}
+.product-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+ 
+}
+.product-header h4{
+    color: rgb(12, 131, 31);
+    font-weight: normal;
+ 
+}
+.product-card-wrap{
+   
+    display: flex;
+    gap: 20px;
+ overflow-x: scroll;
+  white-space: nowrap; 
+
+
+    scroll-behavior: smooth;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;     /* Firefox */
+  
+    
+
+}
+.product-card-wrap::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Opera */
+}
+.product-card {
+    flex: 0 0 auto;
+    max-width: 179px;
+    border: 0.5px solid #f6f6f6;
+    border-radius: 8px;
+    box-shadow: #eee 0px 1px 1px, #eee 0px 0px 1px 1px;
+    padding: 0 15px;
+    /* flex-basis: 15%; */
+    
+    
+ 
+    
+}
+
+.product-image{
+    text-align: center;
+}
+.product-image img{
+width: 80%;
+
+}
+.product-timing{
+    border-radius: 4px;
+    border-width: 0px;
+    padding: 0px 4px;
+    background-color: rgb(248, 248, 248);
+    
+ max-width: 60px;
+    font-size:9px;
+    font-weight: bold;
+  
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  justify-content: center;
+  text-align: left;
+  
+}
+.product-timing img{
+ width: 25%;
+  
+}
+.product-content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.product-title{
+    font-size: 12px;
+    font-weight: bold;
+}
+.product-quantity{
+    font-size: 12px;
+    font-weight: lighter;padding-top: 30px;
+}
+
+.product-price-add{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    align-items: center;
+    
+}
+.product-price-add h4{
+font-size: 12px;
+}
+.product-price-add button{
+background-color: #f6fff9;
+border:1px solid rgb(12, 131, 31);
+padding:5px 18px;
+border-radius: 5px;
+font-weight: bold;
+color: rgb(12, 131, 31);
+text-align: center;
+
+}
+
+
+/* ====================== product-section ends ====================== */

@@ -1,0 +1,73 @@
+@media screen and (min-width:200px) and (max-width:575px) {
+    header{
+    align-items: stretch;
+    flex-flow: column;
+    padding:15px;
+    gap: 10px;
+}
+.header-left{
+            justify-content:center;
+}
+
+.header-logo{
+    border-right: 1px solid #ccc;
+  
+    padding:10px 10px;
+    
+    
+}
+.header-address{
+    padding: 10px 10px;
+      font-size: 8px;
+    color: #333;
+    font-weight: 400;
+
+}
+.search-box{
+    display: flex;
+    align-items: stretch;
+    flex-grow: 1;
+background-color: #F8F8F8;
+
+
+}
+
+.header-right{
+    margin-right: 0px;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+/* ====================== banner starts ====================== */
+.banner-section{
+    display: none;
+}
+
+/* ====================== banner ends ====================== */
+
+
+/* ====================== order-banner-section starts ====================== */
+.order-banner-section{
+    flex-flow: column;
+    padding: 15px;
+    
+    
+
+}
+
+/* ====================== order-banner-section ends ====================== */
+
+
+.category-section{
+max-width: 1280px;
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+padding: 15px;
+}
+.category-img {
+flex-basis: 25%;
+
+}
+}
