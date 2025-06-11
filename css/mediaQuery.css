@@ -70,4 +70,25 @@ padding: 15px;
 flex-basis: 25%;
 
 }
+
+
+footer{
+
+    margin-top: 20px;
+
+}
+
+.footer-row-1{
+    flex-flow: column;
+    padding: 15px;
+  
+}
+.footer-row-1-left{
+   
+    margin-bottom: 20px;
+ 
+}
+.useful-links-wrap-right-col li{
+   flex-basis: 48%;
+}
 }
